@@ -1,0 +1,49 @@
+/**
+ * 
+ */
+package com.basic.entities;
+
+/**
+ * @author Harshal-Git
+ *
+ */
+public class GeoLocation {
+
+	private double lat;
+	
+	private double lng;
+
+	/**
+	 * @return the lat
+	 */
+	public double getLat() {
+		return lat;
+	}
+
+	/**
+	 * @param lat the lat to set
+	 */
+	public void setLat(double lat) {
+		this.lat = lat;
+	}
+
+	/**
+	 * @return the lng
+	 */
+	public double getLng() {
+		return lng;
+	}
+
+	/**
+	 * @param lng the lng to set
+	 */
+	public void setLng(double lng) {
+		this.lng = lng;
+	}
+
+	@Override
+	public String toString() {
+		return "GeoLocation [latitude=" + lat + ", longitude=" + lng + "]";
+	}
+	
+}
